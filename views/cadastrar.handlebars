@@ -1,0 +1,25 @@
+<section>
+   <form class="forms" action="/add" method="POST">
+      <h1>Dados:</h1>
+      <label class="labelDados" id="email">Email: <strong>*</strong></label>
+      <input type="text" name="email" class="inputDados">
+      <label class="labelDados">Data de Nascimento: <strong>*</strong></label>
+      <input type="date" name="data" class="inputDados">
+      <label class="labelDados">Telefone: <strong>*</strong></label>
+      <input type="tel" name="telefone" class="inputDados">
+      <label class="labelDados">Senha: <strong>*</strong></label>
+      <input type="password" name="senha" class="inputDados" id="senha">
+      <label class="labelDados">Confirmar Senha: <strong>*</strong></label>
+      <input type="password" name=" confirmarSenha" class="inputDados" id="confirmarSenha">
+      <input type="submit" value="Cadastrar" class="submitDados" onclick="ValidarCadastro(event)">
+      <span class="errorSubmitDados"></span>
+      <div class="logins">
+         <a href="https://www.google.com/intl/pt-BR/account/about/" target="_blank"><img src="../assets/google.png"
+               alt="Google Login"></a>
+         <a href="https://pt-br.facebook.com/" target="_blank"><img src="../assets/facebook.png"
+               alt="Facebook Login"></a>
+         <a href="https://www.linkedin.com/login/pt" target="_blank"><img src="../assets/linkedin.png"
+               alt="Linkedin Login"></a>
+      </div>
+   </form>
+</section>

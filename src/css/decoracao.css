@@ -1,0 +1,24 @@
+* {
+
+   letter-spacing: 3px;
+   font-family: Helvetica, sans-serif;
+}
+
+.background-color-red {
+   background-color: #E8180C;
+   color: white;
+   padding: 5px 20px;
+}
+.background-color-gray {
+   background-color: #f8f8f8;
+}
+.padding-title {
+   padding-top: 10px;
+}
+
+
+.img-height{
+   height: 320px;
+}
+
+

@@ -1,0 +1,141 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(https://www.zankyou.com.br/images/mag-card-c/123/71e8/878/623/-/br/wp-content/uploads/2017/04/z-capa-l.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-y: hidden;
+   height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+
+}
+
+.forms {
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.585);
+   border-radius: 40px;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10px 0;
+   color: rgb(0, 0, 0);
+
+}
+.forms button a{
+   color: white;
+}
+.forms h1, h2 {
+   color: rgb(33, 32, 32);
+   margin-bottom: 10px;
+   font-weight: 500;
+
+}
+
+.labelDados strong {
+   color: red;
+}
+
+.inputDados {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 50%;
+   height: 45px;
+   padding: 5px 10px;
+   cursor: pointer;
+
+}
+
+.inputDados span {
+   margin-bottom: 5px;
+}
+.cadastrar{
+   text-decoration: none;
+   color:blue;
+}
+.inputDados:hover {
+background-color: rgba(128, 128, 128, 0.481);
+}
+
+.forms .submitDados {
+   background-color: #042940;
+   color: white;
+   width: 50%;
+   height: 45px;
+   border-radius: 10px;
+   padding: 5px 10px;
+   margin-top: 10px;
+   cursor: pointer;
+   transition: all .5s;
+}
+
+.forms .submitDados:hover {
+   background-color: rgba(0, 0, 0, 0.889);
+
+}
+
+.forms .logins {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 15px;
+}
+
+.inputEmpty {
+   border: 2px solid red;
+   color: red;
+}
+
+.alertImputEmpty {
+   color: red;
+   background-color: rgb(235, 212, 212);
+   padding: 8px 5px;
+   border-radius: 5px;
+   margin-top: 15px;
+}
+
+.alertSucess {
+   color: green;
+}
+
+@media screen and (max-width:700px) {
+  
+   .forms {
+      background-color: rgba(252, 250, 250, 0.442);
+      width: 70%;
+      color: black;
+   }
+
+   .inputDados {
+      width: 60%;
+   }
+
+   .forms .submitDados {
+      width: 60%;
+   }
+}
+@media screen and (max-width:375px) {
+  
+   .forms {
+      background-color: rgba(252, 250, 250, 0.442);
+      width: 90%;
+      color: black;
+   }
+
+   .inputDados {
+      width: 80%;
+   }
+
+   .forms .submitDados {
+      width: 80%;
+   }
+}

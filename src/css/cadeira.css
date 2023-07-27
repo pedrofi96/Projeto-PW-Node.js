@@ -1,0 +1,14 @@
+* {
+
+   letter-spacing: 3px;
+   font-family: Helvetica, sans-serif;
+}
+
+.background-color-red {
+   background-color: #E8180C;
+   color: white;
+   padding: 5px 20px;
+}
+.margin-main{
+   margin: 0 auto;
+}

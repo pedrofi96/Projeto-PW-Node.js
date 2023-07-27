@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/uikit.min.css">
+   <link rel="stylesheet" href="../css/index.css">
+
+   <title>Menu</title>
+</head>
+
+<body class="uk-padding-remove uk-margin-remove uk-text-lead uk-text-lighter">
+   <header class="uk-width-1-1">
+      <div class="uk-text-uppercase uk-text-center  background-color-gray uk-text-default font-family">
+         Faça seu pedido online
+      </div>
+      <div class="background-color-gray uk-text-default">
+         <h1 class="uk-heading-divider uk-text-center padding-title uk-text-lighter font-family">Produtos Decoração</h1>
+         <nav class="uk-navbar-container " uk-navbar>
+            <div class="uk-navbar-center">
+               <ul class="uk-navbar-nav font-family">
+                  <li class="uk-active"><a href="/">Menu</a></li>
+                  <li>
+                     <a href="#">Produtos</a>
+                     <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                           <li><a href="/mesas">Mesas</a></li>
+                           <li><a href="/cadeira">Cadeiras</a></li>
+                           <li><a href="/decoracao">Decoração</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="/login">Login</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <!-- Paralax effect -->
+      <section class="uk-margin-medium-bottom">
+         <div class="paralax-height uk-background-cover uk-light uk-flex uk-flex-column  " uk-parallax="bgy: -200"
+            style="background-image: url('https://images.pexels.com/photos/2291462/pexels-photo-2291462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+
+            <h1
+               class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-text-lighter font-family ">
+               Tudo para sua Festa</h1>
+            <p
+               class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-text-lighter uk-text-bolder">
+               Sua maior fonte de artigos para decoração</p>
+            <button
+               class=" uk-button uk-button-secondary uk-width-1-2 uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-border-rounded">Últimas
+               decorações</button>
+         </div>
+      </section>
+
+      <!-- card-images-->
+      <section class="uk-margin-medium-bottom uk-padding">
+         <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
+            <div>
+               <div
+                  class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-border-rounded">
+                  <div class="uk-card-media-top">
+                     <img
+                        src="https://www.zankyou.com.br/images/mag-card-c/123/71e8/878/623/-/br/wp-content/uploads/2017/04/z-capa-l.jpg"
+                        alt="" class="img-height">
+                  </div>
+                  <div class="uk-padding-small">
+                     <h3 class="uk-card-title ">Casamentos</h3>
+                     <p class="font-family">Casamentos decorados em todos os estilos e amnbientes, de acordo com o seu
+                        sonho.</p>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div
+                  class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-border-rounded">
+                  <div class="uk-card-media-top">
+                     <img
+                        src="https://bebe.abril.com.br/wp-content/uploads/2021/09/234674350_360284932244760_1093781733162512844_n.jpg"
+                        alt="" class="img-height">
+                  </div>
+                  <div class="uk-padding-small">
+                     <h3 class="uk-card-title">Aniversários</h3>
+                     <p class="font-family">Realizamos aniversários para todas as idades, com decorações temáticas.</p>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div
+                  class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-border-rounded">
+                  <div class="uk-card-media-top">
+                     <img
+                        src="https://englishlive.ef.com/pt-br/blog/wp-content/uploads/sites/16/2013/11/falar-de-formatura2.jpg"
+                        alt="" class="img-height">
+                  </div>
+                  <div class="uk-padding-small">
+                     <h3 class="uk-card-title">Formaturas</h3>
+                     <p class="font-family">Seja qual for seu curso, nós fazemos a festa de formatura dos seus sonhos.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- slider images -->
+      <section class="uk-position-relative uk-visible-toggle uk-light uk-margin-bottom  " tabindex="-1"
+         uk-slider="center: true">
+
+         <ul class="uk-slider-items uk-grid ">
+            <li class="uk-width-4-5">
+               <div class="uk-panel ">
+                  <img
+                     src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     width="700px" height="700px" alt="">
+                  <div class="uk-position-center uk-panel">
+                  </div>
+               </div>
+            </li>
+            <li class="uk-width-4-5">
+               <div class="uk-panel">
+                  <img
+                     src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     width="700px" height="700px" alt="">
+                  <div class="uk-position-center uk-panel">
+                  </div>
+               </div>
+            </li>
+            <li class="uk-width-4-5">
+               <div class="uk-panel">
+                  <img
+                     src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     width="700px" height="700px" alt="">
+                  <div class="uk-position-center uk-panel">
+                  </div>
+               </div>
+            </li>
+            <li class="uk-width-4-5">
+               <div class="uk-panel uk-position-cente">
+                  <img
+                     src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" " width="
+                     700px" height="700px" alt="">
+                  <div class="uk-position-center uk-panel">
+                  </div>
+               </div>
+            </li>
+            <li class="uk-width-4-5">
+               <div class="uk-panel">
+                  <img
+                     src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" " width="
+                     700px" height="700px" alt="">
+                  <div class="uk-position-center uk-panel">
+                  </div>
+               </div>
+            </li>
+         </ul>
+
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slider-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slider-item="next"></a>
+      </section>
+   </main>
+   <footer>
+      <div class="uk-height-medium uk-flex uk-flex-center  uk-flex-column uk-flex-middle uk-background-cover uk-light "
+         data-src="https://img.freepik.com/premium-photo/black-stone-texture-dark-slate-background-top-view_88281-1206.jpg?w=2000"
+         uk-img>
+         <h3 class="  uk-width-1-1 uk-heading-divider uk-text-center padding-title uk-text-lighter font-family">Tudo
+            para sua Decoração</h3>
+         <nav class="uk-navbar-container uk-navbar-transparent " uk-navbar>
+            <div class="uk-navbar-center">
+               <ul class="uk-navbar-nav font-family">
+                  <li><a href="https://github.com/pedrofi96" target="_black "
+                        class="uk-margin-small-right" uk-icon="icon:   whatsapp; ratio: 1.5"></a></li>
+                  <li><a href="https://github.com/pedrofi96" target="_black "
+                        class="uk-margin-small-right" uk-icon="icon:    github-alt; ratio: 1.5"></a></li>
+                  <li><a href="https://github.com/pedrofi96" target="_black "
+                        class="uk-margin-small-right" uk-icon="icon:    instagram; ratio: 1.5"></a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </footer>
+</body>
+<script src="./js/uikit.min.js"></script>
+<script src="./js/uikit-icons.js"></script>
+
+</html>
